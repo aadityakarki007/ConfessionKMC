@@ -1,6 +1,6 @@
 // app/api/admin/confessions/[id]/archive/route.js
 import { NextResponse } from 'next/server';
-import { connectDB } from '@/lib/mongodb';
+import dbConnect from '@/lib/mongodb';
 import Confession from '@/models/Confession';
 import { verifyAdminAuth } from '@/lib/auth';
 
