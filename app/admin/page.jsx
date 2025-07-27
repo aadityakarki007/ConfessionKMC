@@ -512,7 +512,7 @@ export default function AdminPage() {
                         pointerEvents: 'none',
                         fontFamily: '"Roboto", monospace'
                     }}>
-                        GSS Confession
+                        KMC Confession
                     </div>
                     
                     {isArchived && (
